@@ -6,7 +6,7 @@ const Contact = () => {
     return ( 
         <div className="contact h-max bg-black">
             <Navbar/>
-            <div className="body lg:flex p-4 mt-7 lg:justify-around lg:mx-auto lg:px-auto lg:max-w-6xl lg:mt-10">
+            <div className="body h-max lg:flex p-4 mt-7 lg:justify-around lg:mx-auto lg:px-auto lg:max-w-6xl lg:mt-10">
                 <div className="space-y-4 w-full pt-7 lg:overflow-y-auto lg:w-1/2 lg:py-2">
                     <h1 className="flex space-x-2 text-white text-3xl lg:text-6xl"><span><FaTerminal className="text-cyan-500"/></span><b  id="txtHead" class="ease-in duration-500" >Contact_Me</b></h1>
                     <p className="text-white text-lg text-justify ease-in duration-500">Want me on a project? Don't hesitate to reach out using the form below. reach me on 

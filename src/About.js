@@ -10,7 +10,7 @@ const About = () => {
             <div className="flex p-4 mt-7 lg:justify-around lg:mx-auto lg:px-auto lg:max-w-6xl lg:mt-10">
                 <div className="space-y-4 w-full pt-7 lg:overflow-y-auto lg:w-2/3 lg:py-2">
                     <h1 className="flex space-x-2 text-white text-3xl lg:text-6xl"><span><FaTerminal className="text-cyan-500"/></span><b>About_Me</b></h1>
-                    <p className="text-white text-lg text-justify">Hello World, my name is Onyeka Benedict Omewu, I am a very dedicated and improvement prone Full-stack web developer with 2+ years of experience in Back-end and 1+ year in Front-end,
+                    <p className="text-white text-lg text-justify">Hello World, my name is Onyeka Benedict Omewu, I am a very dedicated and improvement prone Full-stack web developer with 6+ years of experience with Back-end and 5+ years of experience with Front-end,
                         i'm also a Tech fanatic who is always curious and ready to learn and solve any bugs in this amazing ecosystem. I enjoy bouncing ideas off my friends and colleagues even those who aren't in the tech ecosystem,
                         because it helps assimilate different perspectives into my project. Check out some of my work in the <span class="text-cyan-500"><b>projects</b></span> page
                     </p>
