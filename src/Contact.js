@@ -21,27 +21,35 @@ const Contact = () => {
                     <p class="text-lg text-cyan-500 text-justify">benedictchrstn@gmail.com</p>
                     <div class="py-2 lg:hidden">
                         <form action="https://formspree.io/f/xgeglqnz" method="POST">
-                            <input className="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4" type="text"
-                                placeholder="Name"/> <br/>
-                            <input className="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4" type="email"
-                                placeholder="Email"/> <br/>
-                            <textarea className="w-full text-white p-2 placeholder:-translate-y-0 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4" type="text"
-                                rows="10" cols="5" placeholder="Your message"></textarea> <br/>
-                            <button id="txtBod6"
-                                className="w-full p-2 text-lg border-2 border-cyan-500 bg-cyan-500 rounded-lg ease-in duration-500 mt-4">Send message</button>
+                        <input
+                            class="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4"
+                            type="text" name="name" placeholder="Name" required /> <br />
+                        <input
+                            class="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4"
+                            type="email" name="email" placeholder="Email" required /> <br />
+                        <textarea
+                            class="w-full text-white p-2 placeholder:-translate-y-0 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4"
+                            name="message" rows="10" cols="5" placeholder="Your message" required></textarea> <br />
+                        <button type="submit"
+                            class="w-full p-2 text-lg border-2 border-cyan-800 bg-cyan-500 rounded-lg ease-in duration-500 mt-4">Send
+                            message</button>
                         </form>
                     </div>
                 </div>
                 <div class="p-2 hidden lg:block lg:w-1/3">
                     <form>
-                        <input className="w-full text-gray-50 p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4" type="text"
-                            placeholder="Name"/> <br/>
-                        <input className="w-full text-gray-50 p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4" type="email"
-                            placeholder="Email"/> <br/>
-                        <textarea className="w-full text-gray-50 p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4" type="text"
-                            rows="10" cols="5" placeholder="Your message"></textarea> <br/>
-                        <button
-                            className="w-full p-2 text-lg border-2 border-cyan-500 bg-cyan-500 rounded-lg ease-in duration-500 mt-4">Send message</button>
+                        <input
+                            class="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4"
+                            type="text" name="name" placeholder="Name" required /> <br />
+                        <input
+                            class="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4"
+                            type="email" name="_replyto" placeholder="Email" required /> <br />
+                        <textarea
+                            class="w-full text-white p-2 placeholder:-translate-y-0 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4"
+                            name="message" rows="10" cols="5" placeholder="Your message" required></textarea> <br />
+                        <button type="submit"
+                            class="w-full p-2 text-lg border-2 border-cyan-800 bg-cyan-500 rounded-lg ease-in duration-500 mt-4">Send
+                            message</button>
                     </form>
                 </div>
             </div>

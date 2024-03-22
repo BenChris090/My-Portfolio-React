@@ -24,7 +24,7 @@ const Navbar = () => {
     return ( 
         <nav className="flex p-2 px-6 bg-black items-center justify-between space-x-auto max-w-full">
             {/* mobile nav starts here */}
-            <div id="mNav" className="h-screen w-screen space-y-auto text-center items-center justify-center hidden z-0 fixed left-0 top-0 bg-black overflow-x-hidden overflow-y-auto ease-in duration-500">
+            <div id="mNav" className="h-screen w-screen space-y-auto text-center items-center justify-center hidden z-10 fixed left-0 top-0 bg-black overflow-x-hidden overflow-y-auto ease-in duration-500">
                 <FaTimes className="text-2xl text-cyan-500 absolute top-5 right-8" onClick={setNav}/>
                 <NavLink to="/" style={({ isActive }) => (isActive ? {color: '#06b6d4'} : {color: '#2F4F4F'})}  className="mt-5 text-center space-y-2 block hover:text-cyan-500 ease-in duration-500 text-xl">HOME</NavLink>
                 <NavLink to="/about" style={({ isActive }) => (isActive ? {color: '#06b6d4'} : {color: '#2F4F4F'})}  className="mt-10 text-center space-y-2 block hover:text-cyan-500 ease-in duration-500 text-xl">ABOUT <span>ME</span></NavLink>
