@@ -37,7 +37,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div class="p-2 hidden lg:block lg:w-1/3">
-                    <form>
+                    <form action="https://formspree.io/f/xgeglqnz" method="POST">
                         <input
                             class="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4"
                             type="text" name="name" placeholder="Name" required /> <br />
