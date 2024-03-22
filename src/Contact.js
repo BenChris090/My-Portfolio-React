@@ -20,7 +20,7 @@ const Contact = () => {
                     </p>
                     <p class="text-lg text-cyan-500 text-justify">benedictchrstn@gmail.com</p>
                     <div class="py-2 lg:hidden">
-                        <form action="https://formspree.io/benedictchrstn@gmail.com" method="POST">
+                        <form action="https://formspree.io/f/xgeglqnz" method="POST">
                             <input className="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4" type="text"
                                 placeholder="Name"/> <br/>
                             <input className="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4" type="email"

@@ -22,7 +22,7 @@ const Navbar = () => {
     }
     
     return ( 
-        <nav className="flex p-2 bg-black items-center justify-between space-x-auto max-w-full">
+        <nav className="flex p-2 px-6 bg-black items-center justify-between space-x-auto max-w-full">
             {/* mobile nav starts here */}
             <div id="mNav" className="h-screen w-screen space-y-auto text-center items-center justify-center hidden z-0 fixed left-0 top-0 bg-black overflow-x-hidden overflow-y-auto ease-in duration-500">
                 <FaTimes className="text-2xl text-cyan-500 absolute top-5 right-8" onClick={setNav}/>
