@@ -18,18 +18,17 @@ const Contact = () => {
                         <Link to="https://linkedin.com/in/niklaus-omewu-63a7b7247"><FaLinkedin className="text-2xl text-white ml-4 lg:ml-20 hover:text-cyan-500 ease-in duration-500"/></Link>
                         <Link to="https://instagram.com/ice_berg0101"><FaInstagram className="text-2xl text-white ml-4 lg:ml-20 hover:text-cyan-500 ease-in duration-500"/></Link>
                     </p>
-                    <p class="text-lg text-cyan-500 text-justify">benedictchrstn@gmail.com</p>
                     <div class="py-2 lg:hidden">
                         <form action="https://formspree.io/f/xgeglqnz" method="POST">
                         <input
                             class="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4"
-                            type="text" name="name" placeholder="Name" required /> <br />
+                            type="text" name="name" placeholder="Your Name" required /> <br />
                         <input
                             class="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4"
-                            type="email" name="email" placeholder="Email" required /> <br />
+                            type="email" name="email" placeholder="Your Email" required /> <br />
                         <textarea
                             class="w-full text-white p-2 placeholder:-translate-y-0 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4"
-                            name="message" rows="10" cols="5" placeholder="Your message" required></textarea> <br />
+                            name="message" rows="10" cols="5" placeholder="Your Message" required></textarea> <br />
                         <button type="submit"
                             class="w-full p-2 text-lg border-2 border-cyan-800 bg-cyan-500 rounded-lg ease-in duration-500 mt-4">Send
                             message</button>
