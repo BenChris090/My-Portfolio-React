@@ -44,13 +44,13 @@ const Navbar = () => {
             </div>
             {/* mobile nav ends here */}
             <div className="links hidden items-center text-center lg:flex lg:py-auto lg:space-x-14">
-                <NavLink to="/" style={({ isActive }) => (isActive ? {color: '#06b6d4'} : {color: '#A9A9A9'})} className="text-xl text-gray-200 "><b>HOME</b></NavLink>
-                <NavLink to="/about" style={({ isActive }) => (isActive ? {color: '#06b6d4'} : {color: '#A9A9A9'})} className="flex text-gray-200 text-xl hover:text-cyan-500 ease-in duration-500"><b>ABOUT ME</b></NavLink>
-                <NavLink to="https://github.com/BenChris090?tab=repositories" style={({ isActive }) => (isActive ? {color: '#06b6d4'} : {color: '#A9A9A9'})} className="flex text-gray-200 text-xl hover:text-cyan-500 ease-in duration-500"><b>OTHER PROJECTS</b></NavLink>
-                <NavLink to="/contact" style={({ isActive }) => (isActive ? {color: '#06b6d4'} : {color: '#A9A9A9'})} className=" text-gray-200 text-xl hover:text-cyan-500 ease-in duration-500"><b>CONTACT ME</b></NavLink>
+                <NavLink to="/" style={({ isActive }) => (isActive ? {color: '#06b6d4'} : {color: '#A9A9A9'})} className="text-lg text-gray-200 "><b>HOME</b></NavLink>
+                <NavLink to="/about" style={({ isActive }) => (isActive ? {color: '#06b6d4'} : {color: '#A9A9A9'})} className="flex text-gray-200 text-lg hover:text-cyan-500 ease-in duration-500"><b>ABOUT ME</b></NavLink>
+                <NavLink to="https://github.com/BenChris090?tab=repositories" style={({ isActive }) => (isActive ? {color: '#06b6d4'} : {color: '#A9A9A9'})} className="flex text-gray-200 text-lg hover:text-cyan-500 ease-in duration-500"><b>OTHER PROJECTS</b></NavLink>
+                <NavLink to="/contact" style={({ isActive }) => (isActive ? {color: '#06b6d4'} : {color: '#A9A9A9'})} className=" text-gray-200 text-lg hover:text-cyan-500 ease-in duration-500"><b>CONTACT ME</b></NavLink>
                 <FaSun style={(theme === "dark" ? {display: 'flex'} : {display: 'none'})} className="text-2xl flex text-cyan-500 my-2" onClick={toggleTheme}></FaSun>
                 <FaMoon style={(theme === "dark" ? {display: 'none'} : {display: 'flex'})} className="text-2xl flex text-cyan-500 my-2" onClick={toggleTheme}></FaMoon>
-                <Link to="mailto:benedictchrstn@gmail.com" className="text-gray-300 border-2 border-gray-400 rounded-3xl px-4 hover:text-cyan-500 hover:border-cyan-500 ease-in duration-500 text-xl">HIRE ME</Link>
+                <Link to="mailto:benedictchrstn@gmail.com" className="text-gray-300 border-2 border-gray-400 rounded-3xl px-4 hover:text-cyan-500 hover:border-cyan-500 ease-in duration-500 text-lg">HIRE ME</Link>
             </div>
         </nav>
      );
