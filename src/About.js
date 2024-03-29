@@ -12,7 +12,12 @@ const About = () => {
                     <h1 className="flex space-x-2 text-white text-3xl lg:text-6xl"><span><FaTerminal className="text-cyan-500"/></span><b>About_Me</b></h1>
                     <p className="text-white text-lg text-justify">Hello World, my name is Onyeka Benedict Omewu, I am a very dedicated and improvement prone Full-stack web developer with 6+ years of experience with Back-end and 5+ years of experience with Front-end,
                         i'm also a Tech fanatic who is always curious and ready to learn and solve any bugs in this amazing ecosystem. I enjoy bouncing ideas off my friends and colleagues even those who aren't in the tech ecosystem,
-                        because it helps assimilate different perspectives into my project. Check out some of my work in the <span class="text-cyan-500"><b>projects</b></span> page
+                        because it helps assimilate different perspectives into my project.
+                    </p>
+                    <p className="text-white text-lg text-justify">As a dedicated web developer, I specialize in transforming complex challenges into seamless digital experiences. 
+                    My mission is to empower organizations and individuals by crafting effective websites that streamline stressful tasks, making them effortlessly manageable. 
+                    With a steadfast commitment to innovation and user-centric design, I ensure that every project not only meets but exceeds expectations, 
+                    delivering digital simplicity in an increasingly complex world. Check out some of my work in the <span class="text-cyan-500"><b>projects</b></span> page
                     </p>
                     <p className="text-white text-lg text-justify">I am open and ready to take on job opportunities including internships where i can add value as well as further improve on my current skills and even possibly acquire more skills. 
                         If you know of any openings that match my skills and experience don't hesitate to <span class="text-cyan-500"><b>contact</b></span> me.

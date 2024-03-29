@@ -18,7 +18,7 @@ const Contact = () => {
                         <Link to="https://linkedin.com/in/niklaus-omewu-63a7b7247"><FaLinkedin className="text-2xl text-white ml-4 lg:ml-20 hover:text-cyan-500 ease-in duration-500"/></Link>
                         <Link to="https://instagram.com/ice_berg0101"><FaInstagram className="text-2xl text-white ml-4 lg:ml-20 hover:text-cyan-500 ease-in duration-500"/></Link>
                     </p>
-                    <div class="py-2 lg:hidden">
+                    <div class="py-2 mt-5 lg:hidden">
                         <form action="https://formspree.io/f/xgeglqnz" method="POST">
                         <input
                             class="w-full text-white p-2 border-2 border-cyan-500 bg-gray-700 rounded-lg ease-in duration-500 mt-4"
