@@ -22,7 +22,7 @@ const Navbar = () => {
     }
     
     return ( 
-        <nav className="flex p-2 px-6 bg-black items-center justify-between space-x-auto max-w-full">
+        <nav className="bg-black flex static top-0 p-2 px-6 items-center justify-between lg:justify-center lg:space-x-12 max-w-full">
             {/* mobile nav starts here */}
             <div id="mNav" className="h-screen w-screen space-y-auto text-center items-center justify-center hidden z-10 fixed left-0 top-0 bg-black overflow-x-hidden overflow-y-auto ease-in duration-500">
                 <div className="p-4 m-2 h-3/4">
@@ -34,7 +34,7 @@ const Navbar = () => {
                 </div>
             </div>
             <Link to="/" className="flex items-center"><img src={ ICE_LOGO } className="h-12 mr-3 sm:h-16 lg:h-16" alt="Logo" /><span className="self-center text-3xl font-semibold whitespace-nowrap text-cyan-500 lg:text-4xl">ICE_BERG</span></Link>
-            <div className="bars space-x-4 flex items-center ml-36">
+            <div className="bars space-x-4 flex items-center ml-auto">
             {
                 theme === "dark"
                 ? <FaSun className="text-2xl flex text-cyan-500 my-2 lg:hidden" onClick={toggleTheme}></FaSun>
