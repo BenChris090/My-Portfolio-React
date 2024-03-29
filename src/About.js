@@ -5,7 +5,7 @@ const About = () => {
     let ICE_LOGO =  require('./ICE_LOGO.png');
 
     return ( 
-        <div className="about h-full bg-black">
+        <div className="about min-h-screen h-full bg-black">
             <Navbar/>
             <div className="flex p-4 mt-7 max-w-screen-md lg:justify-around lg:mx-auto lg:px-auto lg:max-w-6xl lg:mt-10">
                 <div className="space-y-4 w-full pt-7 lg:overflow-y-auto lg:w-2/3 lg:py-2">

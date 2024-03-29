@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const Contact = () => {
     return ( 
-        <div className="contact min-h-screen bg-black">
+        <div className="contact min-h-screen h-full bg-black">
             <Navbar/>
             <div className="body lg:flex p-4 mt-7 lg:justify-around lg:mx-auto lg:px-auto lg:max-w-6xl lg:mt-10">
                 <div className="space-y-4 w-full pt-7 lg:overflow-y-auto lg:w-1/2 lg:py-2">
@@ -13,7 +13,7 @@ const Contact = () => {
                         any of my social media accounts or just send an e-mail
                     </p>
                     <p class="flex space-x-2 text-lg lg:text-xl">
-                        <Link to="https://twitter.com/Benedic98349748"><FaTwitter className="text-2xl text-white hover:text-cyan-500 ease-in duration-500"/></Link>
+                        <Link to="https://twitter.com/IceBerg_Dev"><FaTwitter className="text-2xl text-white hover:text-cyan-500 ease-in duration-500"/></Link>
                         <Link to="https://github.com/BenChris090"><FaGithub className="text-2xl text-white ml-4 lg:ml-20 hover:text-cyan-500 ease-in duration-500"/></Link>
                         <Link to="https://linkedin.com/in/niklaus-omewu-63a7b7247"><FaLinkedin className="text-2xl text-white ml-4 lg:ml-20 hover:text-cyan-500 ease-in duration-500"/></Link>
                         <Link to="https://instagram.com/ice_berg0101"><FaInstagram className="text-2xl text-white ml-4 lg:ml-20 hover:text-cyan-500 ease-in duration-500"/></Link>
