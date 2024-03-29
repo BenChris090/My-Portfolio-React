@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const Contact = () => {
     return ( 
-        <div className="contact h-full bg-black">
+        <div className="contact min-h-screen bg-black">
             <Navbar/>
             <div className="body lg:flex p-4 mt-7 lg:justify-around lg:mx-auto lg:px-auto lg:max-w-6xl lg:mt-10">
                 <div className="space-y-4 w-full pt-7 lg:overflow-y-auto lg:w-1/2 lg:py-2">
